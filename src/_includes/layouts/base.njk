@@ -12,12 +12,12 @@ templateClass: tmpl-base
   <meta property="og:type" content="website">
   <meta property="og:title" content="{% if title %}{{ title }} / {% endif %}Aetinx">
   <meta property="og:description" content="I’m Aetinx, a femboy from Maine that loves to create fun and interesting things that people can enjoy and remember.">
-  <meta property="og:image" content="/embed.png">
+  <meta property="og:image" content="https://aetinx.saco.dev/embed.png">
   
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:title" content="{% if title %}{{ title }} / {% endif %}Aetinx">
   <meta property="twitter:description" content="I’m Aetinx, a femboy from Maine that loves to create fun and interesting things that people can enjoy and remember.">
-  <meta property="twitter:image" content="/embed.png">
+  <meta property="twitter:image" content="https://aetinx.saco.dev/embed.png">
   
   <meta name="theme-color" content="#ff5588" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -26,21 +26,30 @@ templateClass: tmpl-base
   <link rel="stylesheet" href="/style.css" />
   <link rel="icon" type="image/png" href="/brand/logo.svg"/>
 
+  <script src="/script.js" defer></script>
   <script src="https://icons.spdblx.repl.co/icons.js" defer></script>
 </head>
 
 <nav>
-  <div class="nav-left">
-    <a href="/">
-      <svg width="106" height="18" viewBox="0 0 106 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 4.5H0V0H18V18H0V6.75H13.5V4.5ZM13.5 11.25H4.5V13.5H13.5V11.25ZM20.25 0H38.25V11.25H24.75V13.5H38.25V18H20.25V0ZM24.75 6.75H33.75V4.5H24.75V6.75ZM47.25 4.5H40.5V0H58.5V4.5H51.75V18H47.25V4.5ZM65.25 18H60.75V0H65.25V18ZM67.5 0H85.5V18H81V4.5H72V18H67.5V0ZM87.75 0H92.25V4.23443L96.75 6.48442L101.25 4.23443V0H105.75V7.01558L101.781 9L105.75 10.9844V18H101.25V13.7656L96.75 11.5156L92.25 13.7656V18H87.75V10.9844L91.7189 9L87.75 7.01558V0Z" fill="#FF5588"/>
+  <div class="nav-main">
+    <a class="nav-logo" href="/">
+    <svg width="106" height="18" viewBox="0 0 106 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 4.5H0V0H18V18H0V6.75H13.5V4.5ZM13.5 11.25H4.5V13.5H13.5V11.25ZM20.25 0H38.25V11.25H24.75V13.5H38.25V18H20.25V0ZM24.75 6.75H33.75V4.5H24.75V6.75ZM47.25 4.5H40.5V0H58.5V4.5H51.75V18H47.25V4.5ZM65.25 18H60.75V0H65.25V18ZM67.5 0H85.5V18H81V4.5H72V18H67.5V0ZM87.75 0H92.25V4.23443L96.75 6.48442L101.25 4.23443V0H105.75V7.01558L101.781 9L105.75 10.9844V18H101.25V13.7656L96.75 11.5156L92.25 13.7656V18H87.75V10.9844L91.7189 9L87.75 7.01558V0Z" fill="#FF5588"/>
+    </svg>
+  </a>
+    <a class="nav-toggle" href="javascript:void(0)">
+      <svg width="18" height="18" viewBox="3 3 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.686279 12L23.3137 12" stroke="black" stroke-width="2"/>
+        <path d="M12 0.686279L12 23.3137" stroke="black" stroke-width="2"/>
       </svg>
     </a>
+  </div>
+  <div class="nav-pages">
     <a href="/work">Work</a>
     <a href="/commissions">Commissions</a>
     <a href="/ai">AI Disclosure</a>
   </div>
-  <div class="nav-right">
+  <div class="nav-socials">
     <a href="https://twitter.com/aetinx" aria-label="Twitter" target="_blank">
       <saco-icon name="brand.twitter"></saco-icon>
     </a>

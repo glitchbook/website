@@ -16,6 +16,7 @@ module.exports = function(eleventyConfig) {
     "md",
     // Static Assets:
     "css",
+    "js",
     "jpeg",
     "jpg",
     "png",
