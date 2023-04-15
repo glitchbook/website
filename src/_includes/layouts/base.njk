@@ -1,38 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    
-    {# This is the base template for the site–other templates extend this one #}
-    
-    <meta charset="utf-8" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Your new 11ty blog" />
-    <link rel="stylesheet" type="text/css" href="/public/style.css" />
-    {% seo "" %}
-  </head>
-  <body>
-  <main>
-    
-    {# Page or post content will appear here #}
-  
-    {{ content | safe }}
+---
+templateClass: tmpl-base
+---
 
-      <footer class="footer">
-        <div class="links">
-          <a href="/">Home</a>
-          <span class="divider">|</span>
-          <a href="/posts">Posts</a>
-          <span class="divider">|</span>
-          <a href="/about">About</a>
-        </div>
-        <a class="btn--remix" target="_top" href="https://glitch.com/edit/#!/remix/glitch-hello-eleventy">
-        <img src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140" alt="" /> 
-        Remix on Glitch
-        </a>
-      </footer>
-    
-  </main>
-   
-  </body>
-</html>
+<head>
+  <meta charset="UTF-8">
+  
+  <title>{% if title %}{{ title }} / {% endif %}Aetinx</title>
+  <meta name="title" content="{% if title %}{{ title }} / {% endif %}Aetinx">
+  <meta name="description" content="I’m Aetinx, a femboy from Maine that loves to create fun and interesting things that people can enjoy and remember.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if title %}{{ title }} / {% endif %}Aetinx">
+  <meta property="og:description" content="I’m Aetinx, a femboy from Maine that loves to create fun and interesting things that people can enjoy and remember.">
+  <meta property="og:image" content="/embed.png">
+  
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="{% if title %}{{ title }} / {% endif %}Aetinx">
+  <meta property="twitter:description" content="I’m Aetinx, a femboy from Maine that loves to create fun and interesting things that people can enjoy and remember.">
+  <meta property="twitter:image" content="/embed.png">
+  
+  <meta name="theme-color" content="#ff5588" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="icon" type="image/png" href="/brand/logo.svg"/>
+
+  <script src="https://icons.spdblx.repl.co/icons.js" defer></script>
+</head>
+
+<nav>
+  <div class="nav-left">
+    <a href="/">
+      <svg width="106" height="18" viewBox="0 0 106 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 4.5H0V0H18V18H0V6.75H13.5V4.5ZM13.5 11.25H4.5V13.5H13.5V11.25ZM20.25 0H38.25V11.25H24.75V13.5H38.25V18H20.25V0ZM24.75 6.75H33.75V4.5H24.75V6.75ZM47.25 4.5H40.5V0H58.5V4.5H51.75V18H47.25V4.5ZM65.25 18H60.75V0H65.25V18ZM67.5 0H85.5V18H81V4.5H72V18H67.5V0ZM87.75 0H92.25V4.23443L96.75 6.48442L101.25 4.23443V0H105.75V7.01558L101.781 9L105.75 10.9844V18H101.25V13.7656L96.75 11.5156L92.25 13.7656V18H87.75V10.9844L91.7189 9L87.75 7.01558V0Z" fill="#FF5588"/>
+      </svg>
+    </a>
+    <a href="/work">Work</a>
+    <a href="/commissions">Commissions</a>
+    <a href="/ai">AI Disclosure</a>
+  </div>
+  <div class="nav-right">
+    <a href="https://twitter.com/aetinx" aria-label="Twitter" target="_blank">
+      <saco-icon name="brand.twitter"></saco-icon>
+    </a>
+    <a href="https://github.com/aetinx" aria-label="GitHub" target="_blank">
+      <saco-icon name="brand.github"></saco-icon>
+    </a>
+    <a href="https://discord.gg/ZYwF9q8ChB" aria-label="Discord" target="_blank">
+      <saco-icon name="brand.discord"></saco-icon>
+    </a>
+    <a href="https://behance.net/aetinx" aria-label="Behance" target="_blank">
+      <saco-icon name="brand.behance"></saco-icon>
+    </a>
+    <a href="https://polywork.com/aetinx" aria-label="Polywork" target="_blank">
+      <saco-icon name="brand.polywork"></saco-icon>
+    </a>
+  </div>
+</nav>
+
+<main>
+  {% if title %}<h1>{{ title }}</h1>{% endif %}
+  {{ content | safe }}
+</main>
