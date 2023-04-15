@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+title: "Work"
+---
+
+<section id="projects">{% for project in collections.projects %}
+  <a class="not-hyperlink" {% if project.link %} href="{{ project.link }}" target="_blank" {% endif %}>
+    <article class="project" style="--img: url(/thumbnails/{{ project.thumbnail }})">   
+      <header class="project-header">
+        <span class="project-status">{{ project.year }}</span>
+        <h2 class="project-title">{{ project.name }}</h2>
+      </header>
+      <div class="project-card">
+        <div class="project-card-image">
+        </div>
+      </div>
+    </article>
+  </a>
+{% endfor %}</section>

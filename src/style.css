@@ -1,0 +1,191 @@
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://rsms.me/inter/inter-display.css");
+
+body {
+  --accent: #ff5588;
+  
+  box-sizing: border-box;
+  padding: 100px;
+  margin: 0;
+  font-family: "InterDisplay var", "Inter var", Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-variation-settings: "opsz" 32;
+  color: #111;
+}
+
+h1 {
+  font-size: 96px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 75px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+h1.title--main {
+  font-size: 72px;
+  letter-spacing: -0.02em;
+  line-height: initial;
+}
+
+p {
+  font-size: 48px;
+  line-height: 150%;
+  margin-top: 72px;
+  color: #888;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main a[href^="http"]:not(.not-hyperlink):after {
+  content: "↗";
+  opacity: 0.5;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin-bottom: 100px;
+}
+
+nav > * {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-left {
+  gap: 50px;
+}
+
+.nav-right {
+  gap: 25px;
+}
+
+.nav-right a {
+  color: var(--accent);
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px 50px;
+  height: fit-content;
+}
+
+/* Main cards */
+
+#main-cards {
+  display: grid;
+  gap: 25px;
+}
+
+#main-cards > * {
+  background: #555;
+  border-radius: 20px;
+  padding: 100px;
+  color: white;
+}
+
+#main-cards > * h2 {
+  font-size: 32px;
+  font-weight: 500;
+  opacity: 0.75;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+#main-cards > * p {
+  color: white;
+  margin: 0;
+}
+
+#main-cards > * ul {
+  display: grid;
+  padding: 0;
+  margin: 0;
+}
+
+#main-cards > * li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  line-height: 150%;
+}
+
+#main-cards > * li *:last-child {
+  opacity: 0.5;
+}
+
+#favourites {
+  background: #f58;
+}
+
+#hobbies {
+  background: #4af;
+}
+
+#experience {
+  background: #96f;
+}
+
+/* Projects */
+
+.project {
+  --img: grey;
+  
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 25px;
+}
+
+.project-card {
+  display: flex;
+  border-radius: 20px;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.project-card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--img) center/cover;
+  transition: 0.25s;
+  width: 100%;
+  transform: scale(1);
+}
+
+.project:hover .project-card-image {
+  transform: scale(1.15);
+}
+
+.project-header {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 5px;
+}
+
+.project-status {
+  font-size: 20px;
+  color: #888;
+  margin: 0;
+}
+
+.project-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
