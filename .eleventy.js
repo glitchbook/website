@@ -12,6 +12,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setTemplateFormats([
     // Templates:
     "html",
+    "xml",
     "njk",
     "md",
     // Static Assets:
