@@ -1,7 +1,5 @@
-run = "npx @11ty/eleventy --serve"
+language = "nodejs"
+run = "npm start"
 
 [nix]
 channel = "stable-22_11"
-
-[deployment]
-run = ["sh", "-c", "npx @11ty/eleventy"]

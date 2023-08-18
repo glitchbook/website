@@ -3,4 +3,4 @@ layout: layouts/base.njk
 title: "Commissions"
 ---
 
-Commissions are coming soon! Please come back later.
+If you want a commission, you can message me on Discord at @aetinx and pay me by buying me something from [my wishlist](https://amazon.com/wishlist/306O81UFDHN8Q).

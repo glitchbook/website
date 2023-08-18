@@ -7,14 +7,17 @@
     "build": "NODE_ENV=production eleventy"
   },
   "dependencies": {
+    "eleventy": "^1.0.6",
     "eleventy-plugin-seo": "0.5.2",
-    "luxon": "^3.3.0"
+    "luxon": "^2.5.2"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-navigation": "^0.3.3",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0"
   },
   "engines": {
-    "node": "14"
+    "node": "12"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/glitch-hello-eleventy"
@@ -27,7 +30,5 @@
     "node",
     "glitch",
     "express"
-  ],
-  "main": ".eleventy.js",
-  "author": ""
+  ]
 }
