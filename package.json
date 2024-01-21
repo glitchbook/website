@@ -19,18 +19,6 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0"
   },
   "engines": {
-    "node": "12"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-hello-eleventy"
-  },
-  "glitch": {
-    "projectType": "generated_static"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+    "node": "16"
+  }
 }
