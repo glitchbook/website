@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Name",
+    "content": "Adrian Keim",
+    "icon": "card-person"
+  },
+  {
+    "title": "Pronouns",
+    "content": "they/them",
+    "icon": "commands"
+  },
+  {
+    "title": "Location",
+    "content": "Maine, USA",
+    "icon": "pin"
+  },
+  {
+    "title": "Birthday",
+    "content": "2006-01-07",
+    "icon": "gift"
+  },
+  {
+    "title": "Height",
+    "content": "165cm",
+    "icon": "ruler"
+  },
+  {
+    "title": "Weight",
+    "content": "46kg",
+    "icon": "scale"
+  }
+]

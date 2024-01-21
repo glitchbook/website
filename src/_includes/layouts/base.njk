@@ -1,68 +1,81 @@
 ---
 templateClass: tmpl-base
 ---
+<!DOCTYPE html>
 
-<head>
+<html lang="en">
+
+{% set _base = "https://beta.aetinx.dev" %}{% if description %}{% set _desc = description %}{% else %}{% set _desc = "I’m an interdisciplinary designer with a passion to make computing friendlier and more enjoyable for everyone." %}{% endif %}<head>
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  
   <meta charset="UTF-8">
   
-  <title>{% if title %}{{ title }} / {% endif %}Aetinx</title>
-  <meta name="title" content="{% if title %}{{ title }} / {% endif %}Aetinx">
-  <meta name="description" content="I’m Aetinx, a femboy from Maine that loves to create fun and interesting things that people can enjoy and remember.">
+  <title>{% if title %}{{ title }} · {% endif %}Aetinx</title>
+  <meta name="title" content="{% if title %}{{ title }} · {% endif %}Aetinx">
+  <meta name="description" content="{{ _desc }}">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{% if title %}{{ title }} / {% endif %}Aetinx">
-  <meta property="og:description" content="I’m Aetinx, a femboy from Maine that loves to create fun and interesting things that people can enjoy and remember.">
-  <meta property="og:image" content="https://aetinx.lata.dev/embed.png">
+  <meta property="og:title" content="{% if title %}{{ title }} · {% endif %}Aetinx">
+  <meta property="og:description" content="{{ _desc }}">
+  <meta property="og:image" content="{{ _base + "/og.png" }}">
   
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:title" content="{% if title %}{{ title }} / {% endif %}Aetinx">
-  <meta property="twitter:description" content="I’m Aetinx, a femboy from Maine that loves to create fun and interesting things that people can enjoy and remember.">
-  <meta property="twitter:image" content="https://aetinx.lata.dev/embed.png">
+  <meta property="twitter:description" content="{{ desc }}">
+  <meta property="twitter:image" content="{{ ogimage }}">
   
-  <meta name="theme-color" content="#ff5588" />
+  <meta name="theme-color" content="#ff4499" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
-  <link rel="canonical" href="https://aetinx.lata.dev{{ page.url | url }}"/>
-  
+  <link rel="canonical" href="https://aetinx.dev{{ page.url | url }}"/>
+
+  <link rel="preload" as="style" href="/style.css" />
   <link rel="stylesheet" href="/style.css" />
-  <link rel="icon" type="image/png" href="/brand/logo.svg"/>
+  <link rel="icon" type="image/svg+xml" href="/brand/logo.svg"/>
 
   <script src="/script.js" defer></script>
-  <script src="https://icons.spdblx.repl.co/icons.js" defer></script>
 </head>
 
 <nav>
   <div class="nav-main">
     <a class="nav-logo" href="/">
-    <svg width="106" height="18" viewBox="0 0 106 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 4.5H0V0H18V18H0V6.75H13.5V4.5ZM13.5 11.25H4.5V13.5H13.5V11.25ZM20.25 0H38.25V11.25H24.75V13.5H38.25V18H20.25V0ZM24.75 6.75H33.75V4.5H24.75V6.75ZM47.25 4.5H40.5V0H58.5V4.5H51.75V18H47.25V4.5ZM65.25 18H60.75V0H65.25V18ZM67.5 0H85.5V18H81V4.5H72V18H67.5V0ZM87.75 0H92.25V4.23443L96.75 6.48442L101.25 4.23443V0H105.75V7.01558L101.781 9L105.75 10.9844V18H101.25V13.7656L96.75 11.5156L92.25 13.7656V18H87.75V10.9844L91.7189 9L87.75 7.01558V0Z" fill="#FF5588"/>
-    </svg>
-  </a>
-    <a class="nav-toggle" href="javascript:void(0)">
-      <svg width="18" height="18" viewBox="3 3 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0.686279 12L23.3137 12" stroke="black" stroke-width="2"/>
-        <path d="M12 0.686279L12 23.3137" stroke="black" stroke-width="2"/>
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 0H8.5L12 5L10.5 10.5L5 12L0 8.5V4H4V0Z" fill="#FF4499"/>
+        <path d="M0 20V15.5L5 12L10.5 13.5L12 19L8.5 24H4V20H0Z" fill="#FF4499"/>
+        <path d="M20 24H15.5L12 19L13.5 13.5L19 12L24 15.5V20H20V24Z" fill="#FF4499"/>
+        <path d="M24 4V8.5L19 12L13.5 10.5L12 5L15.5 0H20V4H24Z" fill="#FF4499"/>
+        <title>Back to home</title>
+      </svg>
+    </a>
+    <a class="nav-toggle" href="#" rel="nofollow">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" overflow="visible">
+        <path d="M9 1V17" stroke="white" stroke-width="2" stroke-linecap="square"/>
+        <path d="M1 9H17" stroke="white" stroke-width="2" stroke-linecap="square"/>
       </svg>
     </a>
   </div>
   <div class="nav-pages">
-    <a href="/work">Work</a>
+    <a href="https://read.cv/aetinx" target="_blank">Resume</a>
     <a href="/commissions">Commissions</a>
-    <a href="/ai">AI Disclosure</a>
+    <a href="/wishlist">Wishlist</a>
   </div>
   <div class="nav-socials">
-    <a href="https://instagram.com/aetinx" aria-label="Instagram" target="_blank">
-      <saco-icon name="brand.instagram"></saco-icon>
+    <a class="not-hyperlink" href="https://twitter.com/aetinx" target="_blank" aria-label="Twitter">
+      <div class="symbol">{{ collections.symbols["brand-twitter"] | safe }}</div>
     </a>
-    <a href="https://github.com/aetinx" aria-label="GitHub" target="_blank">
-      <saco-icon name="brand.github"></saco-icon>
+    <a class="not-hyperlink" href="https://instagram.com/aetinx" target="_blank" aria-label="Instagram">
+      <div class="symbol">{{ collections.symbols["brand-instagram"] | safe }}</div>
     </a>
-    <a href="https://discord.gg/ZYwF9q8ChB" aria-label="Discord" target="_blank">
-      <saco-icon name="brand.discord"></saco-icon>
+    <a class="not-hyperlink"href="https://github.com/aetinx" target="_blank" aria-label="GitHub">
+      <div class="symbol">{{ collections.symbols["brand-github"] | safe }}</div>
     </a>
-    <a href="https://behance.net/aetinx" aria-label="Behance" target="_blank">
-      <saco-icon name="brand.behance"></saco-icon>
+    <a class="not-hyperlink"href="https://reddit.com/u/aetinx" target="_blank" aria-label="Reddit">
+      <div class="symbol">{{ collections.symbols["brand-reddit"] | safe }}</div>
+    </a>
+    <a class="not-hyperlink"href="https://pinterest.com/aetinx" target="_blank" aria-label="Pinterest">
+      <div class="symbol">{{ collections.symbols["brand-pinterest"] | safe }}</div>
     </a>
   </div>
 </nav>
@@ -71,3 +84,5 @@ templateClass: tmpl-base
   {% if title %}<h1>{{ title }}</h1>{% endif %}
   {{ content | safe }}
 </main>
+
+</html>

@@ -9,10 +9,12 @@
   "dependencies": {
     "eleventy": "^1.0.6",
     "eleventy-plugin-seo": "0.5.2",
-    "luxon": "^2.5.2"
+    "luxon": "^2.5.2",
+    "markdown-it": "^14.0.0",
+    "markdown-it-link-attributes": "^4.0.1"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-navigation": "^0.3.3",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0"
   },
