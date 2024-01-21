@@ -330,6 +330,10 @@ li {
     --font-size-secheader: 18px;
     --font-size-paragraph: 20px;
     --font-size-title: 36px;
+
+    --color-foreground-sub-minor: #999;
+    --color-foreground-sub: #787878;
+    --color-foreground-sub-major: #787878;
   }
 
   nav {
