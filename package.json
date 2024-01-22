@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A simple blog, set up with Eleventy.",
   "scripts": {
-    "start": "eleventy --build",
+    "start": "eleventy --serve",
     "build": "NODE_ENV=production eleventy"
   },
   "dependencies": {
