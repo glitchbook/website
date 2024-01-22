@@ -44,10 +44,10 @@ loop(document.getElementById("ag1"), [
 loop(document.getElementById("ag2"), [
   "https://i.ibb.co/nkHWFRM/GDZ8jdz-Xc-AAa-Dwv-format-png-name-4096x4096.png",
   "https://i.ibb.co/7bdBGJF/GDmj-Ksy-W4-AA009f-format-jpg-name-large.jpg",
-  "https://u.cubeupload.com/Speedblocks/Thumbnail20012024172.png",
-  "https://u.cubeupload.com/Speedblocks/ce8Thumbnail20012024172.png",
-  "https://u.cubeupload.com/Speedblocks/a54Thumbnail20012024172.png",
-  "https://u.cubeupload.com/Speedblocks/7e3Thumbnail20012024172.png"
+  "https://i.ibb.co/1ZbkqJK/Thumbnail20012024172.png",
+  "https://i.ibb.co/0fKL6tj/ce8-Thumbnail20012024172.png",
+  "https://i.ibb.co/5WfMWg2/a54-Thumbnail20012024172.png",
+  "https://i.ibb.co/G56spNb/7e3-Thumbnail20012024172.png"
 ])
 loop(document.getElementById("ag3"), [
   "https://res.cloudinary.com/dzlxuyf7c/image/upload/q_auto,w_1080,c_limit,f_auto/UPLOAD_MEDIA/mp9251oqahoaqwrp50vf",
