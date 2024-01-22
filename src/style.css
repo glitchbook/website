@@ -307,6 +307,12 @@ li {
   width: unset;
 }
 
+@media (pointer: none) or (pointer: coarse) {
+  a:hover {
+    opacity: unset;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .ag-card-overlay {
     display: none;
