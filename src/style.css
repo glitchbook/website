@@ -90,12 +90,12 @@ nav {
   justify-content: space-between;
 }
 
-.nav-logo {
-  height: 30px;
-}
-
 .nav-toggle {
   display: none;
+}
+
+.nav-logo svg, .nav-toggle svg {
+  display: block;
 }
 
 .nav-pages {
