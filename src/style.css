@@ -28,6 +28,7 @@
   font-variation-settings: "opsz" 32;
   font-size: var(--font-size-body);
   font-weight: 500;
+  scrollbar-color: #777 #333;
 }
 
 html {
