@@ -16,13 +16,17 @@ templateClass: tmpl-base
   <meta name="description" content="{{ _desc }}">
 
   <meta property="og:type" content="website">
+  <meta property="og:url" content:"https://aetinx.dev">
+  <meta property="og:site_name" content="Aetinx">
   <meta property="og:title" content="{% if title %}{{ title }} · {% endif %}Aetinx">
   <meta property="og:description" content="{{ _desc }}">
   <meta property="og:image" content="{{ _base + "/og.png" }}">
   
   <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content:"https://aetinx.dev">
+  <meta property="twitter:site_name" content="Aetinx">
   <meta property="twitter:title" content="{% if title %}{{ title }} / {% endif %}Aetinx">
-  <meta property="twitter:description" content="{{ desc }}">
+  <meta property="twitter:description" content="{{ _desc }}">
   <meta property="twitter:image" content="{{ ogimage }}">
   
   <meta name="theme-color" content="#ff4499" />
