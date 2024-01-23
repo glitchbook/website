@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 title: "Commissions"
-description: "Let's get cooking together!"
+description: "If you're looking for a designer to collaborate with, you've come to the right place."
 ---
 
 If you want a commission, you can send me an email at [hello@aetinx.dev](mailto:hello@aetinx.dev), or message me on a platform that I'm active on, like Discord.

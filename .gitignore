@@ -1,4 +1,5 @@
 .glitchdotcom.json
 build
+_site
 node_modules
 web_modules

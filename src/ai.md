@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 title: "AI Disclosure"
+description: "How do I use AI?"
 ---
 
 For some of my coding and writing projects, I’ve decided to use OpenAI’s GPT models to help assist me. This AI helps me brainstorm new ideas, summarise material and write better sentences. It’s a great help for letting me streamline my work and create better content — especially in things like accessibility issues and HTML semantics.
