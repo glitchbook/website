@@ -4,7 +4,7 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://aetinx.dev/</loc>
+    <loc>https://aetinx.dev</loc>
      <lastmod>2024-01-24T13:35:44+00:00</lastmod>
     <priority>1.00</priority>
   </url>
@@ -12,15 +12,5 @@
     <loc>https://aetinx.dev/commissions/</loc>
     <lastmod>2024-01-24T13:35:44+00:00</lastmod>
     <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://aetinx.dev/ai/</loc>
-    <lastmod>2024-01-24T13:35:44+00:00</lastmod>
-    <priority>0.40</priority>
-  </url>
-  <url>
-    <loc>https://aetinx.dev/wishlist/</loc>
-    <lastmod>2024-01-24T13:35:44+00:00</lastmod>
-    <priority>0.20</priority>
   </url>
 </urlset>

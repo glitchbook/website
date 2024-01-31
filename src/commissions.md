@@ -14,7 +14,7 @@ Branding commissions currently start at the amazing price of $500 USD<sup><a hre
 
 <hr></hr>
 
-Currently I can only take payments via these gift cards<sup><a href="#fn2" id="ref2">2</a></sup> that can be sent to hello@aetinx.dev:
+Currently, I can only take payments via these gift cards<sup><a href="#fn2" id="ref2">2</a></sup> that can be sent to hello@aetinx.dev:
 * [Vanilla Gift](https://www.vanillagift.com/blue-leaves-email)
 * [Amazon](https://amazon.com/dp/B004LLIKVU)
 

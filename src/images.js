@@ -40,6 +40,8 @@ loop(document.getElementById("ag1"), [
   "https://i.ibb.co/b7VMMKw/GDRx-PMVXQAAx-Tq-format-jpg-name-large.jpg",
   "https://i.ibb.co/58YghQ6/F7xx-JYVWEAA1-MXB-format-jpg-name-medium.jpg",
   "https://i.ibb.co/tYcqDr1/F2fa-Pk0-XMAEw-Uu-P-format-jpg-name-large.jpg",
+  "https://i.ibb.co/Zd0XR1K/IMG-20240128-184449351.jpg",
+  "https://i.ibb.co/2kMFd4r/IMG-20240128-183939976.jpg"
 ])
 loop(document.getElementById("ag2"), [
   "https://i.ibb.co/nkHWFRM/GDZ8jdz-Xc-AAa-Dwv-format-png-name-4096x4096.png",
