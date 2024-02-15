@@ -37,19 +37,21 @@ const loop = (element, imageset) => {
 }
 
 loop(document.getElementById("ag1"), [
-  "https://i.ibb.co/b7VMMKw/GDRx-PMVXQAAx-Tq-format-jpg-name-large.jpg",
+  "https://i.ibb.co/HzZ56J3/Xfs-JQvv-Y58o9-Lgm-H82-T7vd2-Bfd-TELFa-T-1-format-jpg-name-medium.jpg",
+  "https://i.ibb.co/b7VMMKw/GDRx-PMVXQAAx-Tq-format-jpg-name-medium.jpg",
   "https://i.ibb.co/58YghQ6/F7xx-JYVWEAA1-MXB-format-jpg-name-medium.jpg",
-  "https://i.ibb.co/tYcqDr1/F2fa-Pk0-XMAEw-Uu-P-format-jpg-name-large.jpg",
-  "https://i.ibb.co/Zd0XR1K/IMG-20240128-184449351.jpg",
-  "https://i.ibb.co/2kMFd4r/IMG-20240128-183939976.jpg"
+  "https://i.ibb.co/tYcqDr1/F2fa-Pk0-XMAEw-Uu-P-format-jpg-name-medium.jpg",
+  "https://i.ibb.co/Zd0XR1K/IMG-20240128-184449351-format-jpg-name-medium.jpg",
+  "https://i.ibb.co/2kMFd4r/IMG-20240128-183939976-format-jpg-name-medium.jpg"
 ])
 loop(document.getElementById("ag2"), [
-  "https://i.ibb.co/nkHWFRM/GDZ8jdz-Xc-AAa-Dwv-format-png-name-4096x4096.png",
-  "https://i.ibb.co/7bdBGJF/GDmj-Ksy-W4-AA009f-format-jpg-name-large.jpg",
-  "https://i.ibb.co/1ZbkqJK/Thumbnail20012024172.png",
-  "https://i.ibb.co/0fKL6tj/ce8-Thumbnail20012024172.png",
-  "https://i.ibb.co/5WfMWg2/a54-Thumbnail20012024172.png",
-  "https://i.ibb.co/G56spNb/7e3-Thumbnail20012024172.png"
+  "https://i.ibb.co/nkHWFRM/GDZ8jdz-Xc-AAa-Dwv-format-jpg-name-medium.jpg",
+  "https://i.ibb.co/7bdBGJF/GDmj-Ksy-W4-AA009f-format-jpg-name-medium.jpg",
+  "https://i.ibb.co/0fKL6tj/ce8-Thumbnail20012024172-format-jpg-name-medium.jpg",
+  "https://i.ibb.co/5WfMWg2/a54-Thumbnail20012024172-format-jpg-name-medium.jpg",
+  "https://i.ibb.co/G56spNb/7e3-Thumbnail20012024172-format-jpg-name-medium.jpg",
+  "https://i.ibb.co/pZbQ0Zy/kitt-Thumbnail-format-jpg-name-medium.jpg",
+  "https://i.ibb.co/Y8w4TNG/Twitter-post-4-format-jpg-name-medium.jpg"
 ])
 loop(document.getElementById("ag3"), [
   "https://res.cloudinary.com/dzlxuyf7c/image/upload/q_auto,w_1080,c_limit,f_auto/UPLOAD_MEDIA/mp9251oqahoaqwrp50vf",
