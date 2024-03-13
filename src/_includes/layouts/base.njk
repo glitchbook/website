@@ -5,7 +5,7 @@ templateClass: tmpl-base
 
 <html lang="en">
 
-{% set _base = "https://beta.aetinx.dev" %}{% if description %}{% set _desc = description %}{% else %}{% set _desc = "I’m an interdisciplinary designer with a passion to make computing friendlier and more enjoyable for everyone." %}{% endif %}<head>
+{% set _base = "https://aetinx.dev" %}{% if description %}{% set _desc = description %}{% else %}{% set _desc = "I’m an interdisciplinary designer with a passion to make computing friendlier and more enjoyable for everyone." %}{% endif %}<head>
   <link rel="preconnect" href="https://rsms.me/">
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   
@@ -25,7 +25,7 @@ templateClass: tmpl-base
   <meta property="twitter:url" content="https://aetinx.dev">
   <meta property="twitter:title" content="{% if title %}{{ title }} / {% endif %}Aetinx">
   <meta property="twitter:description" content="{{ _desc }}">
-  <meta property="twitter:image" content="{{ ogimage }}">
+  <meta property="twitter:image" content="{{ _base + "/og.png" }}">
   
   <meta name="theme-color" content="#ff4499" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
