@@ -9,16 +9,22 @@ layout: layouts/base.njk
 <h1>Creating magical things</h1>
 <p role="doc-subtitle">I’m an interdisciplinary designer with a passion to make computing friendlier and more enjoyable for everyone.</p>
 
-<div id="ag">
-  <a class="ag-card" id="ag1" href="https://twitter.com/aetinx" target="_blank" aria-label="Selfies">
-    <div class="ag-card-images"></div>
-    <div class="ag-card-overlay">
-      <div class="ag-card-overlay-content">
-        Selfies
-      </div>
+<!-- TEMP FOR REVIEW -->
+<a class="ag-card" id="ag-work" href="https://read.cv/aetinx" target="_blank" aria-label="Work">
+  <div class="ag-card-video">
+  <video autoplay loop muted>
+    <source src="https://campsite.imgix.net/o/2ua6xs4a65g4/p/3fb8d74a-9198-4b97-ae4d-740f0a9fee57.mp4">
+  </video>
+</div>
+  <div class="ag-card-overlay">
+    <div class="ag-card-overlay-content">
+      View my work
     </div>
-  </a>
-  <a class="ag-card" id="ag2" href="https://read.cv/aetinx" target="_blank" aria-label="Work">
+  </div>
+</a>
+
+<!--<div id="ag">
+  <a class="ag-card" id="ag-work" href="https://read.cv/aetinx" target="_blank" aria-label="Work">
     <div class="ag-card-images"></div>
     <div class="ag-card-overlay">
       <div class="ag-card-overlay-content">
@@ -26,15 +32,25 @@ layout: layouts/base.njk
       </div>
     </div>
   </a>
-  <a class="ag-card" id="ag3" href="https://visit.studio/aetinx" target="_blank" aria-label="Captures">
-    <div class="ag-card-images"></div>
-    <div class="ag-card-overlay">
-      <div class="ag-card-overlay-content">
-        Captures
+  <div id="ags">
+    <a class="ag-card" id="ag-captures" href="https://visit.studio/aetinx" target="_blank" aria-label="Captures">
+      <div class="ag-card-images"></div>
+      <div class="ag-card-overlay">
+        <div class="ag-card-overlay-content">
+          Captures
+        </div>
       </div>
-    </div>
-  </a>
-</div>
+    </a>
+    <a class="ag-card" id="ag-selfies" href="https://twitter.com/aetinx" target="_blank" aria-label="Selfies">
+      <div class="ag-card-images"></div>
+      <div class="ag-card-overlay">
+        <div class="ag-card-overlay-content">
+          Selfies
+        </div>
+      </div>
+    </a>
+  </div>
+</div>-->
 
 <a href="https://discord.gg/gzUwRBDQBp" id="discord-link" class="not-hyperlink" target="_blank">
   <div class="symbol">{{ collections.symbols["brand-discord"] | safe }}</div>Join my Discord server
