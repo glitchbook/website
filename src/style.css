@@ -276,6 +276,7 @@ p {
   flex-wrap: wrap;
   gap: var(--gap-l) 0;
   margin: var(--margin-xl) 0;
+  margin-top: var(--margin-xxl);
 }
 
 .stat {
@@ -446,6 +447,26 @@ li {
 
   nav.open .nav-toggle svg path:last-child {
     rotate: 180deg;
+  }
+
+  #discord-link {
+    padding: var(--gap-s);
+  }
+
+  .linear-list {
+    display: unset;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .linear-list li {
+    display: inline;
+    line-height: 2;
+  }
+
+  .linear-list li:not(:last-child)::after {
+    content: ", ";
   }
 }
 
