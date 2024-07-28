@@ -19,6 +19,6 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0"
   },
   "engines": {
-    "node": "16"
+    "node": "20.x"
   }
 }
