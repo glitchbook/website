@@ -5,25 +5,25 @@ templateClass: tmpl-base
 
 <html lang="en">
 
-{% set _base = "https://aetinx.dev" %}{% if description %}{% set _desc = description %}{% else %}{% set _desc = "I’m an interdisciplinary designer and developer with a mission to make the better web, for everyone." %}{% endif %}<head>
+{% set _base = "https://hazelicious.pages.dev" %}{% if description %}{% set _desc = description %}{% else %}{% set _desc = "I’m an interdisciplinary designer and developer with a mission to make the better web, for everyone." %}{% endif %}<head>
   <link rel="preconnect" href="https://rsms.me/">
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   
   <meta charset="UTF-8">
   
   <title>{% if title %}{{ title }} · {% endif %}Hazel</title>
-  <meta name="title" content="{% if title %}{{ title }} · {% endif %}Aetinx">
+  <meta name="title" content="{% if title %}{{ title }} · {% endif %}Hazel">
   <meta name="description" content="{{ _desc }}">
 
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://aetinx.dev">
-  <meta property="og:title" content="{% if title %}{{ title }} · {% endif %}Aetinx">
+  <meta property="og:url" content="https://hazelicious.pages.dev">
+  <meta property="og:title" content="{% if title %}{{ title }} · {% endif %}Hazel">
   <meta property="og:description" content="{{ _desc }}">
   <meta property="og:image" content="{{ _base + "/og.png" }}">
   
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://aetinx.dev">
-  <meta property="twitter:title" content="{% if title %}{{ title }} / {% endif %}Aetinx">
+  <meta property="twitter:url" content="https://hazelicious.pages.dev">
+  <meta property="twitter:title" content="{% if title %}{{ title }} / {% endif %}Nova">
   <meta property="twitter:description" content="{{ _desc }}">
   <meta property="twitter:image" content="{{ _base + "/og.png" }}">
   
@@ -31,7 +31,7 @@ templateClass: tmpl-base
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
-  <link rel="canonical" href="https://aetinx.dev{{ page.url | url }}"/>
+  <link rel="canonical" href="https://hazelicious.pages.dev{{ page.url | url }}"/>
 
   <link rel="preload" as="style" href="/style.css" />
   <link rel="stylesheet" href="/style.css" />
@@ -44,10 +44,7 @@ templateClass: tmpl-base
   <div class="nav-main">
     <a class="nav-logo" href="/">
       <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M4 0H8.5L12 5L10.5 10.5L5 12L0 8.5V4H4V0Z" fill="#FF4499"/>
-        <path d="M0 20V15.5L5 12L10.5 13.5L12 19L8.5 24H4V20H0Z" fill="#FF4499"/>
-        <path d="M20 24H15.5L12 19L13.5 13.5L19 12L24 15.5V20H20V24Z" fill="#FF4499"/>
-        <path d="M24 4V8.5L19 12L13.5 10.5L12 5L15.5 0H20V4H24Z" fill="#FF4499"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M135.384 3.12601C134.889 -1.042 128.841 -1.042 128.346 3.12601L124.197 38.0919C123.511 43.8775 122.328 49.5062 120.692 54.9345L83.2051 17.448L49.6223 17.5505L49.7204 49.729L17.5576 49.8271L17.6601 83.417L54.9346 120.692C49.5062 122.328 43.8775 123.511 38.0919 124.197L3.12601 128.346C-1.042 128.841 -1.042 134.889 3.12601 135.384L38.0919 139.533C43.8765 140.219 49.5044 141.402 54.9319 143.038L17.6601 180.309L17.5576 213.899L49.7204 213.998L49.6223 246.176L83.2051 246.278L120.691 208.793C122.327 214.222 123.511 219.851 124.197 225.638L128.346 260.604C128.841 264.772 134.889 264.772 135.384 260.604L139.533 225.638C140.219 219.852 141.402 214.224 143.038 208.795L180.31 246.067L213.899 246.169L213.998 214.006L246.176 214.104L246.279 180.521L208.795 143.038C214.224 141.402 219.852 140.219 225.638 139.533L260.604 135.384C264.772 134.889 264.772 128.841 260.604 128.346L225.638 124.197C219.851 123.511 214.222 122.327 208.793 120.691L246.067 83.417L246.169 49.8271L214.006 49.729L214.104 17.5505L180.521 17.448L143.038 54.9319C141.402 49.5044 140.219 43.8765 139.533 38.0919L135.384 3.12601ZM143.038 54.9319L133.163 64.8066L139.914 123.884L198.92 130.564L208.793 120.691C177.287 111.195 152.532 86.4381 143.038 54.9319ZM208.795 143.038L198.92 133.163L139.843 139.914L133.163 198.92L143.038 208.795C152.534 177.29 177.29 152.534 208.795 143.038ZM120.691 208.793L130.564 198.92L123.812 139.843L64.8066 133.163L54.9319 143.038C86.4381 152.532 111.195 177.287 120.691 208.793ZM54.9346 120.692L64.8066 130.564L123.812 123.884L130.564 64.8066L120.692 54.9345C111.196 86.4403 86.4404 111.196 54.9346 120.692Z" fill="#FF4E87"/>
         <title>Back to home</title>
       </svg>
     </a>
