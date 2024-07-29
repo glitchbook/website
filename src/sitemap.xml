@@ -4,13 +4,13 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://aetinx.dev</loc>
+    <loc>https://hazelicious.pages.dev</loc>
      <lastmod>2024-01-24T13:35:44+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://aetinx.dev/commissions/</loc>
-    <lastmod>2024-01-24T13:35:44+00:00</lastmod>
+    <loc>https://hazelicious.pages.dev/commissions/</loc>
+    <lastmod>2024-07-29T13:35:44+00:00</lastmod>
     <priority>0.80</priority>
   </url>
 </urlset>
