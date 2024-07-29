@@ -35,7 +35,6 @@ module.exports = function(eleventyConfig) {
   return {
     dir: {
       input: "src",
-      input: "src/media",
       includes: "_includes",
       output: "build"
     }
